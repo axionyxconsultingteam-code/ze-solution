@@ -7,10 +7,6 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Ze-Solution – Unlock Your Natural Potential',
   description: 'Ernährungsberatung für Schwangerschaft, Sport, Stillzeit und mehr.',
-  icons: {
-    icon: '/logo-rund.png',
-    apple: '/logo-rund.png',
-  },
 }
 
 export const viewport: Viewport = {
@@ -21,12 +17,7 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="de">
-      <head>
-        <link rel="icon" href="/logo-rund.png" type="image/png" />
-        <link rel="apple-touch-icon" href="/logo-rund.png" />
-        <link rel="shortcut icon" href="/logo-rund.png" type="image/png" />
-      </head>
-      <body className={inter.className}>
+<body className={inter.className}>
         {children}
         <script dangerouslySetInnerHTML={{ __html: `
           (function() {
