@@ -49,10 +49,6 @@ export default function Hero() {
                 <div className="text-xs text-gray-500 mt-0.5">{label}</div>
               </div>
             ))}
-            <div>
-              <div className="text-2xl font-extrabold" style={{ color: '#2d7a3a' }}>✦</div>
-              <div className="text-xs text-gray-500 mt-0.5">{t('hint')}</div>
-            </div>
           </div>
         </div>
 
