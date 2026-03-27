@@ -17,6 +17,11 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="de">
+      <head>
+        <link rel="icon" href="/favicon.ico?v=3" sizes="any" />
+        <link rel="icon" href="/icon.png?v=3" type="image/png" />
+        <link rel="apple-touch-icon" href="/apple-icon.png?v=3" />
+      </head>
 <body className={inter.className}>
         {children}
         <script dangerouslySetInnerHTML={{ __html: `
